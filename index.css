@@ -1,1 +1,65 @@
 @charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*--------Fonts--------*/
+@font-face {
+    font-family: 'oldlondon';
+    src: url(Font/old_london/OldLondon.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*--------Fonts--------*/
+/*--------Variaveis--------*/
+:root{
+    --corheader: #c92f1b;
+    --cornav: #a02a1a;
+    --corouro: #dabe0a;
+
+
+}
+/*--------Fonts--------*/
+
+
+/*--------header-------*/
+#Header{
+    background-color: var(--corheader);
+    width: 100vw;
+    height: 100px;
+}
+#Header>h1{
+    padding-top: 23px;
+    padding-left: 10px;
+    color:  var(--corouro);
+    font-family: 'oldlondon';
+    text-align: left;
+    font-weight: normal;
+    font-size: 55px;
+}
+nav{
+    height: 25px;
+    padding-top: 6px;
+    background-color: var(--cornav);
+}
+nav>a{
+    padding-right: 10px;
+    padding-left: 5px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav>a:hover{   
+    font-size: 18px;
+
+
+}
+
+
+
+
+
+/*--------header------*/
