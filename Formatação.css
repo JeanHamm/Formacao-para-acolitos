@@ -16,3 +16,22 @@
     text-decoration: none;
     color: black;
 }
+article>ul>li{
+    padding-top: 18px;
+}
+article>ul>a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+article>ul>a:hover{
+    text-decoration: underline;
+}
+iframe{
+    margin: 20px 0px;    
+    width: 600px;
+    height: 800px;
+}
+#iframe{
+    text-align: center;
+}
