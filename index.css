@@ -71,10 +71,10 @@ nav>a:hover{
 /*------main------*/
 
 main{
-    margin: 0px 17vw;
+    margin: 0px 19vw;
 }
 .titulo{
-    font-size: 3vw;
+    font-size: 50px;
     padding-top: 35px;
     text-align: left;
 }
@@ -95,26 +95,20 @@ main{
     background-color: var(--cornav);
     margin: 0px;
 }
-#Footer>address>p{
-    text-align: center;
-    height: 2vh;
-}
-#Footer>address{
-    display: inline-block;
-}
 #criado{
-    width: 1700px;
-    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+#criado>p{
+    text-align: center;
     color: white;
 }
 #criado>p>a{
-text-decoration: none;
-color: white;
-font-weight: bold;
-}
-
-#contato{
+    text-decoration: none;
     color: white;
-    text-align: left;
+    font-weight: bold;
+}
+#criado>p>a:hover{
+    text-decoration: underline;
 }
 /*------footer------*/

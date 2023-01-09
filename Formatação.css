@@ -3,10 +3,15 @@
 .imagem{
     text-align: center;
 }
-img{
+.imagehome{
     width: 740px;
     margin-bottom: 50px;
     box-shadow: 1px 0px 5px black;
+    position: relative;
+}
+.imagehome:hover{
+    box-shadow: 3px 0px 14px black;
+    width: 745px;
 }
 .imagelinktitulo{
     text-decoration: none;
