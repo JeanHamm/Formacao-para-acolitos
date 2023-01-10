@@ -69,7 +69,6 @@ nav>a:hover{
 }
 /*--------header------*/
 /*------main------*/
-
 main{
     margin: 0px 19vw;
 }
@@ -86,7 +85,9 @@ main{
     color: rgb(66, 66, 66);
     font-size: 1.1em;
 }
-
+main>section>article{
+    
+}
 
 
 /*------main------*/

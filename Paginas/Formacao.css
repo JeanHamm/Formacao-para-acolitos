@@ -1,4 +1,8 @@
 @charset "UTF-8";
+:root{
+    --cornav: #a02a1a;
+}
+
 
 @font-face {
     font-family: 'roboto';
@@ -30,6 +34,7 @@ font-family: 'bebas';
  text-align: center;
  font-family: 'roboto';
  font-size: 1.3em;
+ margin-top: 5px;
 }
 .imageselect{
     width: 300px;
@@ -38,7 +43,9 @@ font-family: 'bebas';
 .imageselect:hover{
     width: 300px;
     height: 220px;
-    box-shadow: 0px 0px 5px black;
+    box-shadow: 0px 0px 5px rgb(117, 108, 108);
+    border: 5px solid var(--cornav);
+    margin: -5px;
 }
 .Formacoes{
     display: inline-block;
